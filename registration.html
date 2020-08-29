@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  	<style>
+  	ul{
+  			list-style-type:none;
+  			margin:0;
+  			padding:0;
+  			overflow:hidden;
+  			background-color:grey;
+  		}
+  		li{
+  			float:left;
+  		}
+  		li a {
+  			display:block;
+  			color:white;
+  			text-align:center;
+  			padding:15px 20px;
+  			text-decoration: none;
+
+  		}
+  		li a:hover{
+  			background-color:black;
+  		}
+  		div.a{
+  			line-height: 125%;
+  		}
+      label{
+        width:200px;
+        display:inline-block;
+      }
+  		</style>
+      <title>HTML Assingment</title>
+  </head>
+   <body>
+    <a href=" https://www.iiit.ac.in/">
+    <img src="https://www.iiit.ac.in/img/iiit-new.png" height="75" width="150">
+    </a>
+    <a href=" https://serc.iiit.ac.in/rdip/" style=float:right><h2>RDIP</h2></a>
+    <ul>
+    	<li><a href="homepage.html">Home</a></li>
+    	<li><a href="registration.html">Registration Form</a></li>
+    </ul><br>
+    <form action="details.html" method="get" target="_ blank">
+      <label for="fname"><b>First name:</b></label>
+      <input type="text" id="fname" name="fname"required><br><br>
+      <label for="email"><b>E-mail:</b></label>
+      <input type="email" id ="email" name="email" required><br><br>
+      <label for ="phone no."><b>Phone No.:</b></label>
+      <input type="tel" id=" phone no." name="phone no." required><br><br>
+      <label for="gender"><b>Gender:</b></label>
+      <input type="radio" id="Male" name="gender" value="Male" required>
+      <label for ="male"><b>Male</b></label>
+      <input type="radio" id="female" name="gender" value="Female" required>
+      <label for ="female"><b>Female</b></label>      
+      <input type="radio" id="other" name="gender" value="Other" required>
+      <label for ="other"><b>Other</b></label><br><br>
+      <label for ="rdip"><b>Reason For RDIP:</b></label>
+      <input type="checkbox" id="rdip" name="rdip" value="rdip" required>
+      <label for="checkbox"><b>HTML</b></label>
+      <input type="checkbox" id="rdip" name="rdip" value="rdip" requied >
+      <label for="checkbox"><b>CSS</b></label>
+      <input type="checkbox" id="rdip" name="rdip" value="rdip" required>
+      <label for="checkbox"><b>JavaScript</b></label><br><br>
+      <label for="college"><b>College:</b></label>
+      <input type="text" id="college" name="college" required><br><br>
+      <input type="checkbox"  id="agreement" name="agreement" value="Aceptance" required>
+      <label for="agreement"><b>I declare above details given by me are true</b></label><br><br>
+      <input type="submit" name="Submit" style="margin-right: 95px">
+      <input type="reset" name="Reset">
+
+    </form>
+  </body>
+  </html>
+
+
